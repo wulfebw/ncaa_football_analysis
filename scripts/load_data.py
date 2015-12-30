@@ -9,7 +9,6 @@ import constants
 from team import Team
 from game import Game
 
-
 def select_relevant_data(data, labels, desired_labels):
     desired_indices = []
     for idx, label in enumerate(labels):

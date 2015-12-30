@@ -19,6 +19,5 @@ class Team(object):
         stats = np.divide(self.row[constants.DATA_START_IDX:], self.n_games)
         return stats
 
-
     def is_valid(self):
         return True
